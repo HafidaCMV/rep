@@ -1,0 +1,130 @@
+body{
+	font-family: "acumin-pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* ****************************** nav bar ************************************* */
+
+.navbar{
+	background: black;
+
+}
+.navbar-button{
+	border-radius: 20px;
+	margin-top: 5px;
+}
+
+ .Navbar-center{
+  margin: 0 auto;
+ }
+
+ .Navbar-right{
+  float: right;
+ }
+
+
+.navbar-button{
+  border-radius: 25px;
+  margin-top: 5px;
+}
+
+.button-navbar{
+	color: white;
+}
+
+/* ****************************** PRESENTATION ***************************** */
+
+.presentation{
+
+height: 210px;
+background: url("https://a5.behance.net/8a9af7f2f1743dafbc3d4685b42e3124d441e5cd/img/site/1x/cta-header.jpg");
+}
+
+.presentation h1{
+	font-size: 50px;
+    margin-top: -40px;
+	color: #fff;
+	font-style: normal;
+    font-variant: normal;
+	font-family: 'Anton', sans-serif;
+}
+
+@media screen and (max-width: 425px){
+.presentation h1{
+	font-size: 30px;
+	margin-top: 30px;
+}
+}
+
+/* ***************************** SECOND NAV BAR **************************** */
+
+.sc{
+  
+  overflow-x: scroll;
+  border-bottom: 1px solid lightgray;
+}
+.sc ul{
+  width: 1100px;
+  
+}
+.sc li a{
+
+	color: black;
+
+	}
+
+/* **************************** ALBUM ************************************* */
+
+.card{
+	margin-top: 50px;
+	height: 320px;
+}
+
+.line{
+	margin-top: 5px;
+	border-bottom: 1px solid lightgray;
+}
+
+.card h5{
+	font-size: 10px;
+}
+
+.card p{
+	font-size: 9px;
+}
+
+.card .emoji{
+	position: absolute;
+	margin-top: -10px;
+	font-size: 12px;
+	color: gray;
+}
+
+/* changing card width at 959px */
+
+@media screen and (max-width: 959px){
+	.card{
+		width:12em;
+
+          }
+}
+
+/* changing card width at 959px */
+
+@media screen and (max-width: 571px){
+	.card{
+		margin: 0 auto;
+		margin-top: 20px;
+
+          }
+}
+
+/* *************************** FOOTER **********************/
+footer{
+	margin-top: 90px;
+	background: black;
+	color:white;
+}
+
+
+
+
